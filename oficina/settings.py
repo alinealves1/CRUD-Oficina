@@ -77,13 +77,13 @@ WSGI_APPLICATION = 'oficina.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+    default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sistema',
+        'NAME': 'heroku_1a7f0d0b427d4d8',
         'PORT': '3306',
-        'HOST': 'localhost',
-        'USER': 'root',
-        'PASSWORD': '',
+        'HOST': 'us-cdbr-east-04.cleardb.com',
+        'USER': 'b205ad47b9b9ab',
+        'PASSWORD': '26eb09ae',
     }
 }
 
